@@ -3,6 +3,10 @@ import { FileText, ArrowRight } from 'lucide-react';
 import Navbar from "../components/Navbar";
 import HowItWorks from "../components/HowItWorks";
 import TrustedBy from "../components/TrustedBy";
+import Qualities from "../components/Qualities";
+import FAQItem from "../components/FAQItem";
+import Action from "../components/Action";
+import Footer from "../components/Footer";
 
 const Hero = () => {
     return (
@@ -74,13 +78,29 @@ const Hero = () => {
                 <div className="absolute bottom-1/4 right-0 w-72 h-72 bg-purple-400/30 rounded-full filter blur-3xl"/>
             </div>
 
-             <div>
-                 <TrustedBy/>
+            <div>
+                <TrustedBy/>
 
-             </div>
+            </div>
             <div>
 
                 <HowItWorks/>
+            </div>
+            <div>
+
+                <Qualities/>
+            </div>
+            <div>
+
+                <FAQItem/>
+            </div>
+            <div>
+
+                <Action/>
+            </div>
+            <div>
+
+                <Footer/>
             </div>
         </>
 
