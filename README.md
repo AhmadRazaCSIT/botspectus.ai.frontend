@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# HypoDoc
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+HypoDoc is a React-based application that allows users to interact with their PDF documents through a chat interface. Users can upload PDF files, ask questions, and receive answers based on the content of the documents.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Chat with Your PDFs**: Ask questions, get summaries, and discuss ideas with your documents.
+- **Create Accurate Content**: Generate blog articles, social media posts, and more with reference to your uploaded documents.
+- **Analyze Lengthy Documents**: Get comprehensive answers to detailed questions about your PDFs.
+- **Learn from Reports and Papers**: Synthesize insights and break down complex topics from your documents.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: A JavaScript library for building user interfaces.
+- **React Router**: A library for routing in React applications.
+- **Lucide-React**: A library for using Lucide icons in React.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/AhmadRazaCSIT/hypodoc.git
+    cd hypodoc
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Install dependencies:
+    ```sh
+    npm install
+    ```
 
-### `npm run build`
+3. Start the development server:
+    ```sh
+    npm start
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- `src/App.js`: Main application component with routing setup.
+- `src/components/FAQItem.jsx`: Component for displaying frequently asked questions.
+- `src/components/Qualities.jsx`: Component for displaying the features of the application.
+- `src/pages/Home.jsx`: Home page component.
+- `src/pages/QueryPage.jsx`: Query page component for interacting with PDF documents.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+- **Home Page**: Provides an overview of the application and its features.
+- **Query Page**: Allows users to upload PDF files and interact with them through a chat interface.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributing
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Contributions are welcome! Please open an issue or submit a pull request for any changes or improvements.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## License
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

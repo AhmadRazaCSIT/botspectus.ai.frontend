@@ -7,6 +7,7 @@ import Qualities from "../components/Qualities";
 import FAQItem from "../components/FAQItem";
 import Action from "../components/Action";
 import Footer from "../components/Footer";
+import QueryPage from "./QueryPage";
 
 const Hero = () => {
     return (
@@ -52,7 +53,7 @@ const Hero = () => {
                                     {/* Illustration */}
                                     <div className="relative transform rotate-6">
                                         <img
-                                            src="https://images.unsplash.com/photo-1633412802994-5c058f151b66?auto=format&fit=crop&q=80&w=800&h=600"
+                                            src="/bot-image-1.jpg"
                                             alt="AI Analysis Illustration"
                                             className="w-full h-auto rounded-lg shadow-2xl"
                                         />
@@ -85,6 +86,10 @@ const Hero = () => {
             <div>
 
                 <HowItWorks/>
+            </div>
+            <div>
+
+               <QueryPage/>
             </div>
             <div>
 
