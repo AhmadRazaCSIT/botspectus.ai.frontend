@@ -15,7 +15,7 @@ const Navbar = () => {
                     {/* Logo */}
                     <div className="flex items-center">
                         <Square className="h-8 w-8 text-purple-600" />
-                        <span className="ml-2 text-xl font-bold text-purple-600">CHIC DIGITAL</span>
+                        <span className="ml-2 text-xl font-bold text-purple-600">BOT SPECTUS AI</span>
                     </div>
 
                     {/* Desktop Menu */}
